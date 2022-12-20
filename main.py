@@ -98,8 +98,8 @@ btn_close = tk.Button(root, text=")", command=lambda: add_to_calculation(
     ")"), width=5, font=("Arial", 14))
 btn_close.grid(row=5, column=3)
 
-btn_clear = tk.Button(root, text="C", command=lambda: clear_field(
-    clear_field), width=11, font=("Arial", 14))
+btn_clear = tk.Button(root, text="C", command=clear_field,
+                      width=11, font=("Arial", 14))
 btn_clear.grid(row=6, column=1, columnspan=2)
 
 btn_equals = tk.Button(
